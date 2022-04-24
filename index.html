@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/main.css">
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <title>wther App</title>
+</head>
+
+<body>
+     <div class="container">
+          <div class="d-flex flex-column mt-4 mb-5">
+               <div class="app">
+                    <h1 class="text-right pt-4 text-white pr-2">دریافت اطلاعات هوا شناسی</h1>
+                    <h2 class="p-3 text-white">Javascript Weather App</h2>
+
+                    <div class="container">
+                         <div class="p-1 mx-auto text-center mt-5 pb-5">
+                              <p class="p-3 text-black  font-weight-bold">برای دریافت اطلاعات هواشناسی نام شهر خود را
+                                   وارد کنید</p>
+                              <input class="inputcity col-5 mb-3" type="text"
+                                   placeholder="نام شهر را به لاتین وارد کنید">
+                              <input type="submit" class="btn btn-primary col-12" value="ثبت" id="add">
+                         </div>
+
+                    </div>
+               </div>
+          </div>
+
+
+          <div class="details my-5 py-5">
+
+               <h4 class="col-md-3 my-auto" id="cityname"></h4>
+               <p class="col-md-3 my-auto" id="description"></p>
+               <p class="col-md-3 my-auto" id="temp"></p>
+               <p class="col-md-3 my-auto" id="wind"></p>
+
+          </div>
+
+     </div>
+
+     <div class="icon my-5 pt-5 ">
+          <img src="./IMG/clouds.png" alt="clouds" width="10%" class="abr">
+          <img src="./IMG/snowflake.png" width="10%" class="barf ">
+          <img src="./IMG/sunny.png" width="10%" class="sun">
+
+     </div>
+
+
+
+
+</body>
+<!-- <script src="./Js/bootstrap.bundle.min.js"></script> -->
+<script src="./Js/jquery-3.6.0.min.js"></script>
+<script src="./Js/main.js"></script>
+
+
+</html>

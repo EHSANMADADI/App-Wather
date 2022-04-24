@@ -1,0 +1,52 @@
+.app{
+   background-image:url("../IMG/abr.jpg");
+  background-size: cover;
+   background-repeat:no-repeat;
+   background-position:center;
+
+   border-radius: 48px;
+   background: linear-gradient(45deg, #40c6a5, #36a78b);
+   box-shadow:  20px -20px 19px #1f6050,
+                -20px 20px 19px #59ffe4;
+
+
+  
+
+     .inputcity{
+          padding:10px;
+          border-radius:5%;
+          border:1px solid rgb(45, 45, 219);
+         
+          &::placeholder{
+               text-align: right;
+              
+          }
+     }
+    
+}
+.abr{
+     position:absolute;
+}
+.icon{
+     align-items: center;
+     display: flex;
+     justify-content:space-around;
+}
+.color{
+     opacity:0.5;
+}
+.barf{
+     transition: all 2s;
+}
+.rotet{
+    transform:rotate(180deg);
+}
+.heit{
+    height: 10%;
+}
+
+.details{
+     display: flex;
+    
+     
+}

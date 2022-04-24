@@ -1,0 +1,72 @@
+.app {
+  background-image: url("../IMG/abr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 48px;
+  background: linear-gradient(45deg, #40c6a5, #36a78b);
+  -webkit-box-shadow: 20px -20px 19px #1f6050, -20px 20px 19px #59ffe4;
+          box-shadow: 20px -20px 19px #1f6050, -20px 20px 19px #59ffe4;
+}
+
+.app .inputcity {
+  padding: 10px;
+  border-radius: 5%;
+  border: 1px solid #2d2ddb;
+}
+
+.app .inputcity::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.app .inputcity:-ms-input-placeholder {
+  text-align: right;
+}
+
+.app .inputcity::-ms-input-placeholder {
+  text-align: right;
+}
+
+.app .inputcity::placeholder {
+  text-align: right;
+}
+
+.abr {
+  position: absolute;
+}
+
+.icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.color {
+  opacity: 0.5;
+}
+
+.barf {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.rotet {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.heit {
+  height: 10%;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
